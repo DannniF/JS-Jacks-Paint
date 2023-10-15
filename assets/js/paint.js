@@ -101,11 +101,11 @@ function getProductInfo(paintColor) {   //here we are setting up a call back fun
         let colorPrice = document.getElementById('color-price')
         // select element with corresponding id
         // display price
-        colorPrice.textContent = price;
+        colorPrice.textContent = price; // this code adds the price to the 
         
         let color = document.getElementById('color-name')// select element with corresponding id
         //display color name
-        color.textContent = colorName;
+        color.textContent = colorName; // these lines of code is what adds text to both h2. 
     }
     
 }
